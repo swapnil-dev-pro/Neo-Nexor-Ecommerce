@@ -1,0 +1,933 @@
+[
+  {
+    "uuid": "prod-001",
+    "name": "Wireless Noise Cancelling Headphones",
+    "slug": "wireless-noise-cancelling-headphones",
+    "description": "Premium wireless headphones with active noise cancellation.",
+    "content": "<p>Enjoy immersive sound with advanced active noise cancellation, comfortable ear cushions, and long-lasting battery life.</p>",
+    "sku": "AUDIO-WNC-001",
+    "categoryUuid": "cat-electronics",
+    "brandUuid": "brand-sony",
+    "status": "published",
+    "retailPrice": 1250,
+    "salePrice": 1000,
+    "compareAtPrice": 1500,
+    "hasVariants": true,
+    "variants": [
+      {
+        "uuid": "var-001",
+        "name": "Black",
+        "attribute": "color",
+        "value": "Black",
+        "stock": 12,
+        "priceModifier": 0
+      },
+      {
+        "uuid": "var-002",
+        "name": "White",
+        "attribute": "color",
+        "value": "White",
+        "stock": 5,
+        "priceModifier": 0
+      }
+    ],
+    "isFeatured": true,
+    "isDigital": false,
+    "stock": 25,
+    "tags": [
+      {
+        "uuid": "tag-001",
+        "name": "Best Seller",
+        "slug": "best-seller"
+      }
+    ],
+    "images": [
+      {
+        "uuid": "img-001",
+        "url": "/products/headphones-1.jpg",
+        "altText": "Front view",
+        "sortOrder": 0,
+        "isPrimary": true
+      },
+      {
+        "uuid": "img-002",
+        "url": "/products/headphones-2.jpg",
+        "altText": "Side view",
+        "sortOrder": 1,
+        "isPrimary": false
+      }
+    ],
+    "rating": 4.5,
+    "reviewCount": 128,
+    "createdAt": "2026-08-02T08:41:16.101Z"
+  },
+  {
+    "uuid": "prod-002",
+    "name": "Smart LED 4K Television",
+    "slug": "smart-led-4k-television",
+    "description": "Ultra HD 4K smart TV with vivid colors and built-in streaming apps.",
+    "content": "<p>Experience entertainment in stunning 4K resolution with smart streaming features, HDR support, and immersive audio.</p>",
+    "sku": "TV-4K-SMART-002",
+    "categoryUuid": "cat-electronics",
+    "brandUuid": "brand-samsung",
+    "status": "published",
+    "retailPrice": 65000,
+    "salePrice": 55000,
+    "compareAtPrice": 57000,
+    "hasVariants": true,
+    "variants": [
+      {
+        "uuid": "var-003",
+        "name": "43 Inch",
+        "attribute": "size",
+        "value": "43 Inch",
+        "stock": 8,
+        "priceModifier": 0
+      },
+      {
+        "uuid": "var-004",
+        "name": "55 Inch",
+        "attribute": "size",
+        "value": "55 Inch",
+        "stock": 6,
+        "priceModifier": 15000
+      }
+    ],
+    "isFeatured": true,
+    "isDigital": false,
+    "stock": 14,
+    "tags": [
+      {
+        "uuid": "tag-002",
+        "name": "Smart TV",
+        "slug": "smart-tv"
+      }
+    ],
+    "images": [
+      {
+        "uuid": "img-003",
+        "url": "/products/smart-tv-1.jpg",
+        "altText": "Front view of smart TV",
+        "sortOrder": 0,
+        "isPrimary": true
+      },
+      {
+        "uuid": "img-004",
+        "url": "/products/smart-tv-2.jpg",
+        "altText": "Smart TV screen",
+        "sortOrder": 1,
+        "isPrimary": false
+      }
+    ],
+    "rating": 4.7,
+    "reviewCount": 94,
+    "createdAt": "2026-08-04T10:22:31.101Z"
+  },
+  {
+    "uuid": "prod-003",
+    "name": "Mechanical Gaming Keyboard",
+    "slug": "mechanical-gaming-keyboard",
+    "description": "RGB mechanical gaming keyboard with customizable keys.",
+    "content": "<p>Built for gamers and creators, this mechanical keyboard delivers responsive switches, customizable RGB lighting, and durable construction.</p>",
+    "sku": "GAMING-MKB-003",
+    "categoryUuid": "cat-electronics",
+    "brandUuid": "brand-logitech",
+    "status": "published",
+    "retailPrice": 8500,
+    "salePrice": 6999,
+    "compareAtPrice": 9500,
+    "hasVariants": true,
+    "variants": [
+      {
+        "uuid": "var-005",
+        "name": "Red Switch",
+        "attribute": "switch",
+        "value": "Red Switch",
+        "stock": 18,
+        "priceModifier": 0
+      },
+      {
+        "uuid": "var-006",
+        "name": "Blue Switch",
+        "attribute": "switch",
+        "value": "Blue Switch",
+        "stock": 10,
+        "priceModifier": 300
+      }
+    ],
+    "isFeatured": false,
+    "isDigital": false,
+    "stock": 28,
+    "tags": [
+      {
+        "uuid": "tag-003",
+        "name": "Gaming",
+        "slug": "gaming"
+      }
+    ],
+    "images": [
+      {
+        "uuid": "img-005",
+        "url": "/products/gaming-keyboard-1.jpg",
+        "altText": "Gaming keyboard front view",
+        "sortOrder": 0,
+        "isPrimary": true
+      },
+      {
+        "uuid": "img-006",
+        "url": "/products/gaming-keyboard-2.jpg",
+        "altText": "RGB keyboard lighting",
+        "sortOrder": 1,
+        "isPrimary": false
+      }
+    ],
+    "rating": 4.6,
+    "reviewCount": 76,
+    "createdAt": "2026-08-06T12:15:45.101Z"
+  },
+  {
+    "uuid": "prod-004",
+    "name": "Fast Charge Power Bank",
+    "slug": "fast-charge-power-bank",
+    "description": "High-capacity power bank with fast charging and dual USB ports.",
+    "content": "<p>Keep your devices powered throughout the day with a high-capacity battery, fast charging technology, and multiple charging ports.</p>",
+    "sku": "POWER-PB-004",
+    "categoryUuid": "cat-electronics",
+    "brandUuid": "brand-anker",
+    "status": "published",
+    "retailPrice": 500,
+    "salePrice": 300,
+    "compareAtPrice": 5000,
+    "hasVariants": true,
+    "variants": [
+      {
+        "uuid": "var-007",
+        "name": "10000mAh",
+        "attribute": "capacity",
+        "value": "10000mAh",
+        "stock": 25,
+        "priceModifier": 0
+      },
+      {
+        "uuid": "var-008",
+        "name": "20000mAh",
+        "attribute": "capacity",
+        "value": "20000mAh",
+        "stock": 15,
+        "priceModifier": 1800
+      }
+    ],
+    "isFeatured": false,
+    "isDigital": false,
+    "stock": 40,
+    "tags": [
+      {
+        "uuid": "tag-004",
+        "name": "Fast Charging",
+        "slug": "fast-charging"
+      }
+    ],
+    "images": [
+      {
+        "uuid": "img-007",
+        "url": "/products/power-bank-1.jpg",
+        "altText": "Power bank front view",
+        "sortOrder": 0,
+        "isPrimary": true
+      },
+      {
+        "uuid": "img-008",
+        "url": "/products/power-bank-2.jpg",
+        "altText": "Power bank ports",
+        "sortOrder": 1,
+        "isPrimary": false
+      }
+    ],
+    "rating": 4.4,
+    "reviewCount": 61,
+    "createdAt": "2026-08-08T09:30:22.101Z"
+  },
+  {
+    "uuid": "prod-005",
+    "name": "Smart Fitness Watch",
+    "slug": "smart-fitness-watch",
+    "description": "Smart fitness watch with health tracking and activity monitoring.",
+    "content": "<p>Track your daily activities, workouts, heart rate, sleep, and notifications with this stylish and feature-packed smart watch.</p>",
+    "sku": "WATCH-SFW-005",
+    "categoryUuid": "cat-electronics",
+    "brandUuid": "brand-xiaomi",
+    "status": "published",
+    "retailPrice": 7500,
+    "salePrice": 5999,
+    "compareAtPrice": 8500,
+    "hasVariants": true,
+    "variants": [
+      {
+        "uuid": "var-009",
+        "name": "Black",
+        "attribute": "color",
+        "value": "Black",
+        "stock": 14,
+        "priceModifier": 0
+      },
+      {
+        "uuid": "var-010",
+        "name": "Blue",
+        "attribute": "color",
+        "value": "Blue",
+        "stock": 9,
+        "priceModifier": 200
+      }
+    ],
+    "isFeatured": true,
+    "isDigital": false,
+    "stock": 23,
+    "tags": [
+      {
+        "uuid": "tag-005",
+        "name": "Trending",
+        "slug": "trending"
+      }
+    ],
+    "images": [
+      {
+        "uuid": "img-009",
+        "url": "/products/smart-watch-1.jpg",
+        "altText": "Smart fitness watch front view",
+        "sortOrder": 0,
+        "isPrimary": true
+      },
+      {
+        "uuid": "img-010",
+        "url": "/products/smart-watch-2.jpg",
+        "altText": "Smart fitness watch side view",
+        "sortOrder": 1,
+        "isPrimary": false
+      }
+    ],
+    "rating": 4.3,
+    "reviewCount": 53,
+    "createdAt": "2026-08-10T14:18:37.101Z"
+  },
+  {
+    "uuid": "prod-006",
+    "name": "Premium Cotton T-Shirt",
+    "slug": "premium-cotton-t-shirt",
+    "description": "Comfortable premium cotton t-shirt for everyday wear.",
+    "content": "<p>Made from soft and breathable premium cotton, this t-shirt offers all-day comfort with a modern casual fit.</p>",
+    "sku": "FASH-TSH-006",
+    "categoryUuid": "cat-fashion",
+    "brandUuid": "brand-hm",
+    "status": "published",
+    "retailPrice": 1000,
+    "salePrice": 900,
+    "compareAtPrice": 800,
+    "hasVariants": true,
+    "variants": [
+      {
+        "uuid": "var-011",
+        "name": "Black - M",
+        "attribute": "size",
+        "value": "M",
+        "stock": 20,
+        "priceModifier": 0
+      },
+      {
+        "uuid": "var-012",
+        "name": "Black - L",
+        "attribute": "size",
+        "value": "L",
+        "stock": 15,
+        "priceModifier": 0
+      }
+    ],
+    "isFeatured": true,
+    "isDigital": false,
+    "stock": 35,
+    "tags": [
+      {
+        "uuid": "tag-006",
+        "name": "Casual Wear",
+        "slug": "casual-wear"
+      }
+    ],
+    "images": [
+      {
+        "uuid": "img-011",
+        "url": "/products/cotton-tshirt-1.jpg",
+        "altText": "Premium cotton t-shirt front",
+        "sortOrder": 0,
+        "isPrimary": true
+      },
+      {
+        "uuid": "img-012",
+        "url": "/products/cotton-tshirt-2.jpg",
+        "altText": "Premium cotton t-shirt back",
+        "sortOrder": 1,
+        "isPrimary": false
+      }
+    ],
+    "rating": 4.6,
+    "reviewCount": 87,
+    "createdAt": "2026-08-11T08:20:16.101Z"
+  },
+  {
+    "uuid": "prod-007",
+    "name": "Slim Fit Denim Jeans",
+    "slug": "slim-fit-denim-jeans",
+    "description": "Stylish slim fit denim jeans designed for modern everyday fashion.",
+    "content": "<p>These durable denim jeans feature a comfortable slim fit, classic five-pocket design, and versatile styling for casual occasions.</p>",
+    "sku": "FASH-JNS-007",
+    "categoryUuid": "cat-fashion",
+    "brandUuid": "brand-levis",
+    "status": "published",
+    "retailPrice": 1200,
+    "salePrice": 1100,
+    "compareAtPrice": 1000,
+    "hasVariants": true,
+    "variants": [
+      {
+        "uuid": "var-013",
+        "name": "32 - Blue",
+        "attribute": "size",
+        "value": "32",
+        "stock": 12,
+        "priceModifier": 0
+      },
+      {
+        "uuid": "var-014",
+        "name": "34 - Blue",
+        "attribute": "size",
+        "value": "34",
+        "stock": 10,
+        "priceModifier": 0
+      }
+    ],
+    "isFeatured": true,
+    "isDigital": false,
+    "stock": 22,
+    "tags": [
+      {
+        "uuid": "tag-007",
+        "name": "Denim",
+        "slug": "denim"
+      }
+    ],
+    "images": [
+      {
+        "uuid": "img-013",
+        "url": "/products/denim-jeans-1.jpg",
+        "altText": "Slim fit denim jeans front",
+        "sortOrder": 0,
+        "isPrimary": true
+      },
+      {
+        "uuid": "img-014",
+        "url": "/products/denim-jeans-2.jpg",
+        "altText": "Slim fit denim jeans detail",
+        "sortOrder": 1,
+        "isPrimary": false
+      }
+    ],
+    "rating": 4.5,
+    "reviewCount": 64,
+    "createdAt": "2026-08-12T10:15:31.101Z"
+  },
+  {
+    "uuid": "prod-008",
+    "name": "Classic Leather Jacket",
+    "slug": "classic-leather-jacket",
+    "description": "Classic leather jacket with a timeless modern design.",
+    "content": "<p>A premium-looking leather jacket featuring a comfortable inner lining, durable construction, and a timeless design suitable for casual outings.</p>",
+    "sku": "FASH-JKT-008",
+    "categoryUuid": "cat-fashion",
+    "brandUuid": "brand-zara",
+    "status": "published",
+    "retailPrice": 8000,
+    "salePrice": 6650,
+    "compareAtPrice": 8500,
+    "hasVariants": true,
+    "variants": [
+      {
+        "uuid": "var-015",
+        "name": "Black - M",
+        "attribute": "size",
+        "value": "M",
+        "stock": 8,
+        "priceModifier": 0
+      },
+      {
+        "uuid": "var-016",
+        "name": "Black - L",
+        "attribute": "size",
+        "value": "L",
+        "stock": 7,
+        "priceModifier": 0
+      }
+    ],
+    "isFeatured": false,
+    "isDigital": false,
+    "stock": 15,
+    "tags": [
+      {
+        "uuid": "tag-008",
+        "name": "Premium",
+        "slug": "premium"
+      }
+    ],
+    "images": [
+      {
+        "uuid": "img-015",
+        "url": "/products/leather-jacket-1.jpg",
+        "altText": "Classic leather jacket front",
+        "sortOrder": 0,
+        "isPrimary": true
+      },
+      {
+        "uuid": "img-016",
+        "url": "/products/leather-jacket-2.jpg",
+        "altText": "Classic leather jacket side",
+        "sortOrder": 1,
+        "isPrimary": false
+      }
+    ],
+    "rating": 4.7,
+    "reviewCount": 42,
+    "createdAt": "2026-08-14T11:45:28.101Z"
+  },
+  {
+    "uuid": "prod-009",
+    "name": "Women's Floral Summer Dress",
+    "slug": "womens-floral-summer-dress",
+    "description": "Elegant floral summer dress made for comfortable everyday style.",
+    "content": "<p>A lightweight and stylish floral dress featuring a comfortable fit and beautiful pattern, perfect for summer days and casual occasions.</p>",
+    "sku": "FASH-DRS-009",
+    "categoryUuid": "cat-fashion",
+    "brandUuid": "brand-mango",
+    "status": "published",
+    "retailPrice": 3800,
+    "salePrice": 2999,
+    "compareAtPrice": 4500,
+    "hasVariants": true,
+    "variants": [
+      {
+        "uuid": "var-017",
+        "name": "Small",
+        "attribute": "size",
+        "value": "S",
+        "stock": 9,
+        "priceModifier": 0
+      },
+      {
+        "uuid": "var-018",
+        "name": "Medium",
+        "attribute": "size",
+        "value": "M",
+        "stock": 11,
+        "priceModifier": 0
+      }
+    ],
+    "isFeatured": true,
+    "isDigital": false,
+    "stock": 20,
+    "tags": [
+      {
+        "uuid": "tag-009",
+        "name": "Summer Collection",
+        "slug": "summer-collection"
+      }
+    ],
+    "images": [
+      {
+        "uuid": "img-017",
+        "url": "/products/floral-dress-1.jpg",
+        "altText": "Floral summer dress front",
+        "sortOrder": 0,
+        "isPrimary": true
+      },
+      {
+        "uuid": "img-018",
+        "url": "/products/floral-dress-2.jpg",
+        "altText": "Floral summer dress detail",
+        "sortOrder": 1,
+        "isPrimary": false
+      }
+    ],
+    "rating": 4.8,
+    "reviewCount": 73,
+    "createdAt": "2026-08-16T09:32:44.101Z"
+  },
+  {
+    "uuid": "prod-010",
+    "name": "Classic Leather Handbag",
+    "slug": "classic-leather-handbag",
+    "description": "Elegant leather handbag with spacious compartments and premium finish.",
+    "content": "<p>This stylish handbag combines elegant design with practical storage, featuring multiple compartments and a durable premium finish.</p>",
+    "sku": "FASH-BAG-010",
+    "categoryUuid": "cat-fashion",
+    "brandUuid": "brand-coach",
+    "status": "published",
+    "retailPrice": 3500,
+    "salePrice": 2499,
+    "compareAtPrice": 4500,
+    "hasVariants": true,
+    "variants": [
+      {
+        "uuid": "var-019",
+        "name": "Brown",
+        "attribute": "color",
+        "value": "Brown",
+        "stock": 10,
+        "priceModifier": 0
+      },
+      {
+        "uuid": "var-020",
+        "name": "Black",
+        "attribute": "color",
+        "value": "Black",
+        "stock": 12,
+        "priceModifier": 0
+      }
+    ],
+    "isFeatured": false,
+    "isDigital": false,
+    "stock": 22,
+    "tags": [
+      {
+        "uuid": "tag-010",
+        "name": "Accessories",
+        "slug": "accessories"
+      }
+    ],
+    "images": [
+      {
+        "uuid": "img-019",
+        "url": "/products/leather-handbag-1.jpg",
+        "altText": "Leather handbag front",
+        "sortOrder": 0,
+        "isPrimary": true
+      },
+      {
+        "uuid": "img-020",
+        "url": "/products/leather-handbag-2.jpg",
+        "altText": "Leather handbag interior",
+        "sortOrder": 1,
+        "isPrimary": false
+      }
+    ],
+    "rating": 4.4,
+    "reviewCount": 39,
+    "createdAt": "2026-08-18T13:10:52.101Z"
+  },
+
+  {
+    "uuid": "prod-011",
+    "name": "Modern Velvet Sofa",
+    "slug": "modern-velvet-sofa",
+    "description": "Comfortable modern velvet sofa with a stylish contemporary design.",
+    "content": "<p>Upgrade your living room with this elegant velvet sofa featuring soft cushioning, durable construction, and a modern silhouette.</p>",
+    "sku": "HOME-SOF-011",
+    "categoryUuid": "cat-home-living",
+    "brandUuid": "brand-ikea",
+    "status": "published",
+    "retailPrice": 45000,
+    "salePrice": 39999,
+    "compareAtPrice": 52000,
+    "hasVariants": true,
+    "variants": [
+      {
+        "uuid": "var-021",
+        "name": "Gray",
+        "attribute": "color",
+        "value": "Gray",
+        "stock": 5,
+        "priceModifier": 0
+      },
+      {
+        "uuid": "var-022",
+        "name": "Beige",
+        "attribute": "color",
+        "value": "Beige",
+        "stock": 4,
+        "priceModifier": 1000
+      }
+    ],
+    "isFeatured": true,
+    "isDigital": false,
+    "stock": 9,
+    "tags": [
+      {
+        "uuid": "tag-011",
+        "name": "Living Room",
+        "slug": "living-room"
+      }
+    ],
+    "images": [
+      {
+        "uuid": "img-021",
+        "url": "/products/modern-sofa-1.jpg",
+        "altText": "Modern velvet sofa front",
+        "sortOrder": 0,
+        "isPrimary": true
+      },
+      {
+        "uuid": "img-022",
+        "url": "/products/modern-sofa-2.jpg",
+        "altText": "Modern velvet sofa side view",
+        "sortOrder": 1,
+        "isPrimary": false
+      }
+    ],
+    "rating": 4.7,
+    "reviewCount": 48,
+    "createdAt": "2026-08-19T08:25:16.101Z"
+  },
+  {
+    "uuid": "prod-012",
+    "name": "Minimalist Wooden Coffee Table",
+    "slug": "minimalist-wooden-coffee-table",
+    "description": "Elegant wooden coffee table with a clean minimalist design.",
+    "content": "<p>Bring warmth and style to your living space with this minimalist coffee table made from durable wood with a smooth natural finish.</p>",
+    "sku": "HOME-TBL-012",
+    "categoryUuid": "cat-home-living",
+    "brandUuid": "brand-ashley",
+    "status": "published",
+    "retailPrice": 12000,
+    "salePrice": 9999,
+    "compareAtPrice": 14500,
+    "hasVariants": true,
+    "variants": [
+      {
+        "uuid": "var-023",
+        "name": "Natural Oak",
+        "attribute": "color",
+        "value": "Natural Oak",
+        "stock": 8,
+        "priceModifier": 0
+      },
+      {
+        "uuid": "var-024",
+        "name": "Dark Walnut",
+        "attribute": "color",
+        "value": "Dark Walnut",
+        "stock": 6,
+        "priceModifier": 800
+      }
+    ],
+    "isFeatured": false,
+    "isDigital": false,
+    "stock": 14,
+    "tags": [
+      {
+        "uuid": "tag-012",
+        "name": "Furniture",
+        "slug": "furniture"
+      }
+    ],
+    "images": [
+      {
+        "uuid": "img-023",
+        "url": "/products/coffee-table-1.jpg",
+        "altText": "Wooden coffee table front",
+        "sortOrder": 0,
+        "isPrimary": true
+      },
+      {
+        "uuid": "img-024",
+        "url": "/products/coffee-table-2.jpg",
+        "altText": "Wooden coffee table top",
+        "sortOrder": 1,
+        "isPrimary": false
+      }
+    ],
+    "rating": 4.5,
+    "reviewCount": 36,
+    "createdAt": "2026-08-20T10:14:32.101Z"
+  },
+  {
+    "uuid": "prod-013",
+    "name": "Premium Cotton Bed Sheet Set",
+    "slug": "premium-cotton-bed-sheet-set",
+    "description": "Soft and breathable cotton bed sheet set for comfortable sleep.",
+    "content": "<p>Made from premium breathable cotton, this bed sheet set provides a soft feel and elegant look for your bedroom.</p>",
+    "sku": "HOME-BED-013",
+    "categoryUuid": "cat-home-living",
+    "brandUuid": "brand-homecentre",
+    "status": "published",
+    "retailPrice": 3200,
+    "salePrice": 2599,
+    "compareAtPrice": 3800,
+    "hasVariants": true,
+    "variants": [
+      {
+        "uuid": "var-025",
+        "name": "Queen - White",
+        "attribute": "size",
+        "value": "Queen",
+        "stock": 18,
+        "priceModifier": 0
+      },
+      {
+        "uuid": "var-026",
+        "name": "King - White",
+        "attribute": "size",
+        "value": "King",
+        "stock": 12,
+        "priceModifier": 500
+      }
+    ],
+    "isFeatured": true,
+    "isDigital": false,
+    "stock": 30,
+    "tags": [
+      {
+        "uuid": "tag-013",
+        "name": "Bedding",
+        "slug": "bedding"
+      }
+    ],
+    "images": [
+      {
+        "uuid": "img-025",
+        "url": "/products/bed-sheet-1.jpg",
+        "altText": "Cotton bed sheet set",
+        "sortOrder": 0,
+        "isPrimary": true
+      },
+      {
+        "uuid": "img-026",
+        "url": "/products/bed-sheet-2.jpg",
+        "altText": "Bed sheet fabric detail",
+        "sortOrder": 1,
+        "isPrimary": false
+      }
+    ],
+    "rating": 4.6,
+    "reviewCount": 91,
+    "createdAt": "2026-08-21T09:42:18.101Z"
+  },
+  {
+    "uuid": "prod-014",
+    "name": "Decorative Ceramic Vase",
+    "slug": "decorative-ceramic-vase",
+    "description": "Stylish ceramic vase perfect for modern home decoration.",
+    "content": "<p>Add a sophisticated touch to your home with this handcrafted-style ceramic vase, perfect for flowers or standalone decoration.</p>",
+    "sku": "HOME-DEC-014",
+    "categoryUuid": "cat-home-living",
+    "brandUuid": "brand-westelm",
+    "status": "published",
+    "retailPrice": 2200,
+    "salePrice": 1799,
+    "compareAtPrice": 2800,
+    "hasVariants": true,
+    "variants": [
+      {
+        "uuid": "var-027",
+        "name": "White",
+        "attribute": "color",
+        "value": "White",
+        "stock": 15,
+        "priceModifier": 0
+      },
+      {
+        "uuid": "var-028",
+        "name": "Terracotta",
+        "attribute": "color",
+        "value": "Terracotta",
+        "stock": 10,
+        "priceModifier": 200
+      }
+    ],
+    "isFeatured": false,
+    "isDigital": false,
+    "stock": 25,
+    "tags": [
+      {
+        "uuid": "tag-014",
+        "name": "Home Decor",
+        "slug": "home-decor"
+      }
+    ],
+    "images": [
+      {
+        "uuid": "img-027",
+        "url": "/products/ceramic-vase-1.jpg",
+        "altText": "Decorative ceramic vase",
+        "sortOrder": 0,
+        "isPrimary": true
+      },
+      {
+        "uuid": "img-028",
+        "url": "/products/ceramic-vase-2.jpg",
+        "altText": "Ceramic vase detail",
+        "sortOrder": 1,
+        "isPrimary": false
+      }
+    ],
+    "rating": 4.3,
+    "reviewCount": 27,
+    "createdAt": "2026-08-22T11:18:44.101Z"
+  },
+  {
+    "uuid": "prod-015",
+    "name": "LED Table Lamp",
+    "slug": "led-table-lamp",
+    "description": "Modern LED table lamp with adjustable brightness for bedroom and desk.",
+    "content": "<p>Brighten your space with this modern LED table lamp featuring adjustable brightness levels, a compact design, and energy-efficient lighting.</p>",
+    "sku": "HOME-LMP-015",
+    "categoryUuid": "cat-home-living",
+    "brandUuid": "brand-philips",
+    "status": "published",
+    "retailPrice": 2800,
+    "salePrice": 2299,
+    "compareAtPrice": 3400,
+    "hasVariants": true,
+    "variants": [
+      {
+        "uuid": "var-029",
+        "name": "Black",
+        "attribute": "color",
+        "value": "Black",
+        "stock": 16,
+        "priceModifier": 0
+      },
+      {
+        "uuid": "var-030",
+        "name": "White",
+        "attribute": "color",
+        "value": "White",
+        "stock": 13,
+        "priceModifier": 0
+      }
+    ],
+    "isFeatured": true,
+    "isDigital": false,
+    "stock": 29,
+    "tags": [
+      {
+        "uuid": "tag-015",
+        "name": "Lighting",
+        "slug": "lighting"
+      }
+    ],
+    "images": [
+      {
+        "uuid": "img-029",
+        "url": "/products/led-table-lamp-1.jpg",
+        "altText": "LED table lamp front",
+        "sortOrder": 0,
+        "isPrimary": true
+      },
+      {
+        "uuid": "img-030",
+        "url": "/products/led-table-lamp-2.jpg",
+        "altText": "LED table lamp on desk",
+        "sortOrder": 1,
+        "isPrimary": false
+      }
+    ],
+    "rating": 4.5,
+    "reviewCount": 58,
+    "createdAt": "2026-08-23T14:05:27.101Z"
+  }
+]

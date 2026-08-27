@@ -1,0 +1,36 @@
+[
+  { "uuid": "brand-sony", "name": "Sony", "slug": "sony", "logo": "/brands/sony.png" },
+  { "uuid": "brand-nike", "name": "Nike", "slug": "nike", "logo": "/brands/nike.png" },
+  { "uuid": "brand-ikea", "name": "IKEA", "slug": "ikea", "logo": "/brands/ikea.png" },
+
+  {
+    "uuid": "brand-samsung",
+    "name": "Samsung",
+    "slug": "samsung",
+    "logo": "/brands/samsung.png"
+  },
+  {
+    "uuid": "brand-adidas",
+    "name": "Adidas",
+    "slug": "adidas",
+    "logo": "/brands/adidas.png"
+  },
+  {
+    "uuid": "brand-philips",
+    "name": "Philips",
+    "slug": "philips",
+    "logo": "/brands/philips.png"
+  },
+
+  { "uuid": "brand-logitech", "name": "Logitech", "slug": "logitech", "logo": "/brands/logitech.png" },
+{ "uuid": "brand-anker", "name": "Anker", "slug": "anker", "logo": "/brands/anker.png" },
+{ "uuid": "brand-xiaomi", "name": "Xiaomi", "slug": "xiaomi", "logo": "/brands/xiaomi.png" },
+{ "uuid": "brand-hm", "name": "H&M", "slug": "hm", "logo": "/brands/hm.png" },
+{ "uuid": "brand-levis", "name": "Levi's", "slug": "levis", "logo": "/brands/levis.png" },
+{ "uuid": "brand-zara", "name": "Zara", "slug": "zara", "logo": "/brands/zara.png" },
+{ "uuid": "brand-mango", "name": "Mango", "slug": "mango", "logo": "/brands/mango.png" },
+{ "uuid": "brand-coach", "name": "Coach", "slug": "coach", "logo": "/brands/coach.png" },
+{ "uuid": "brand-ashley", "name": "Ashley Furniture", "slug": "ashley", "logo": "/brands/ashley.png" },
+{ "uuid": "brand-homecentre", "name": "Home Centre", "slug": "home-centre", "logo": "/brands/homecentre.png" },
+{ "uuid": "brand-westelm", "name": "West Elm", "slug": "westelm", "logo": "/brands/westelm.png" }
+]

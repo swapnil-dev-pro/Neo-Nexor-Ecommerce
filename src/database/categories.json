@@ -1,0 +1,29 @@
+[
+  {
+    "uuid": "cat-fashion",
+    "name": "Fashion",
+    "slug": "fashion",
+    "description": "Clothing, footwear and accessories",
+    "image": "/categories/fashion.jpg",
+    "parentUuid": null,
+    "sortOrder": 0
+  },
+  {
+    "uuid": "cat-electronics",
+    "name": "Electronics",
+    "slug": "electronics",
+    "description": "Gadgets, audio, and smart devices",
+    "image": "/categories/electronics.jpg",
+    "parentUuid": null,
+    "sortOrder": 1
+  },
+  {
+    "uuid": "cat-home-living",
+    "name": "Home & Living",
+    "slug": "home-living",
+    "description": "Furniture, decor and everyday essentials",
+    "image": "/categories/home-living.jpg",
+    "parentUuid": null,
+    "sortOrder": 2
+  }
+]

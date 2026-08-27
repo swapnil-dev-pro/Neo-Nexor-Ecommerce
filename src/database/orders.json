@@ -1,0 +1,476 @@
+
+[
+{
+  "uuid": "ord-1001",
+  "orderNumber": "NN-100234",
+  "customerUuid": "cust-001",
+  "status": "delivered",
+  "paymentStatus": "paid",
+  "paymentMethod": "cash_on_delivery",
+  "items": [
+    {
+      "productUuid": "prod-001",
+      "variantUuid": "var-001",
+      "name": "Wireless Noise Cancelling Headphones",
+      "image": "/products/headphones-1.jpg",
+      "variantLabel": "Black",
+      "unitPrice": 9999,
+      "quantity": 1,
+      "subtotal": 9999
+    }
+  ],
+  "shippingAddress": {
+    "fullName": "Rahim Ahmed",
+    "phone": "01712345678",
+    "addressLine1": "House 12, Road 5, Dhanmondi",
+    "addressLine2": "",
+    "city": "Dhaka",
+    "postalCode": "1209",
+    "country": "Bangladesh"
+  },
+  "pricing": { "subtotal": 9999, "shippingFee": 100, "discount": 0, "total": 10099 },
+  "timeline": [
+    { "status": "pending", "label": "Order Placed", "timestamp": "2026-08-10T09:12:00.000Z" },
+    { "status": "confirmed", "label": "Order Confirmed", "timestamp": "2026-08-10T11:00:00.000Z" },
+    { "status": "processing", "label": "Processing", "timestamp": "2026-08-11T08:30:00.000Z" },
+    { "status": "shipped", "label": "Shipped", "timestamp": "2026-08-12T14:20:00.000Z" },
+    { "status": "out_for_delivery", "label": "Out for Delivery", "timestamp": "2026-08-13T09:00:00.000Z" },
+    { "status": "delivered", "label": "Delivered", "timestamp": "2026-08-13T15:45:00.000Z" }
+  ],
+  "createdAt": "2026-08-10T09:12:00.000Z"
+},
+{
+  "uuid": "ord-1002",
+  "orderNumber": "NN-100235",
+  "customerUuid": "cust-001",
+  "status": "cancelled",
+  "paymentStatus": "refunded",
+  "paymentMethod": "card",
+  "items": [
+    {
+      "productUuid": "prod-006",
+      "variantUuid": "var-011",
+      "name": "Premium Cotton T-Shirt",
+      "image": "/products/cotton-tshirt-1.jpg",
+      "variantLabel": "Black - M",
+      "unitPrice": 1499,
+      "quantity": 2,
+      "subtotal": 2998
+    }
+  ],
+  "shippingAddress": {
+    "fullName": "Nusrat Jahan",
+    "phone": "01898765432",
+    "addressLine1": "Flat 3B, Road 9, Bashundhara",
+    "addressLine2": "",
+    "city": "Dhaka",
+    "postalCode": "1229",
+    "country": "Bangladesh"
+  },
+  "pricing": { "subtotal": 2998, "shippingFee": 80, "discount": 0, "total": 3078 },
+  "timeline": [
+    { "status": "pending", "label": "Order Placed", "timestamp": "2026-08-15T10:00:00.000Z" },
+    { "status": "confirmed", "label": "Order Confirmed", "timestamp": "2026-08-15T12:30:00.000Z" },
+    { "status": "cancelled", "label": "Order Cancelled", "timestamp": "2026-08-16T09:00:00.000Z" }
+  ],
+  "createdAt": "2026-08-15T10:00:00.000Z"
+},
+{
+    "uuid": "ord-1003",
+    "orderNumber": "NN-100236",
+    "customerUuid": "cust-002",
+    "status": "pending",
+    "paymentStatus": "pending",
+    "paymentMethod": "cash_on_delivery",
+    "items": [
+      {
+        "productUuid": "prod-004",
+        "variantUuid": "var-007",
+        "name": "Fast Charge Power Bank",
+        "image": "/products/power-bank-1.jpg",
+        "variantLabel": "10000mAh",
+        "unitPrice": 3499,
+        "quantity": 1,
+        "subtotal": 3499
+      },
+      {
+        "productUuid": "prod-014",
+        "variantUuid": "var-027",
+        "name": "Decorative Ceramic Vase",
+        "image": "/products/ceramic-vase-1.jpg",
+        "variantLabel": "White",
+        "unitPrice": 1799,
+        "quantity": 1,
+        "subtotal": 1799
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Tanvir Hasan",
+      "phone": "01911223344",
+      "addressLine1": "House 24, Road 7, Mohammadpur",
+      "addressLine2": "",
+      "city": "Dhaka",
+      "postalCode": "1207",
+      "country": "Bangladesh"
+    },
+    "pricing": {
+      "subtotal": 5298,
+      "shippingFee": 100,
+      "discount": 0,
+      "total": 5398
+    },
+    "timeline": [
+      {
+        "status": "pending",
+        "label": "Order Placed",
+        "timestamp": "2026-08-24T08:15:00.000Z"
+      }
+    ],
+    "createdAt": "2026-08-24T08:15:00.000Z"
+  },
+  {
+    "uuid": "ord-1004",
+    "orderNumber": "NN-100237",
+    "customerUuid": "cust-003",
+    "status": "confirmed",
+    "paymentStatus": "paid",
+    "paymentMethod": "card",
+    "items": [
+      {
+        "productUuid": "prod-005",
+        "variantUuid": "var-010",
+        "name": "Smart Fitness Watch",
+        "image": "/products/smart-watch-1.jpg",
+        "variantLabel": "Blue",
+        "unitPrice": 6199,
+        "quantity": 1,
+        "subtotal": 6199
+      },
+      {
+        "productUuid": "prod-013",
+        "variantUuid": "var-025",
+        "name": "Premium Cotton Bed Sheet Set",
+        "image": "/products/bed-sheet-1.jpg",
+        "variantLabel": "Queen - White",
+        "unitPrice": 2599,
+        "quantity": 1,
+        "subtotal": 2599
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Sadia Rahman",
+      "phone": "01622334455",
+      "addressLine1": "Flat 5A, Road 11, Uttara",
+      "addressLine2": "",
+      "city": "Dhaka",
+      "postalCode": "1230",
+      "country": "Bangladesh"
+    },
+    "pricing": {
+      "subtotal": 8798,
+      "shippingFee": 120,
+      "discount": 0,
+      "total": 8918
+    },
+    "timeline": [
+      {
+        "status": "pending",
+        "label": "Order Placed",
+        "timestamp": "2026-08-24T10:20:00.000Z"
+      },
+      {
+        "status": "confirmed",
+        "label": "Order Confirmed",
+        "timestamp": "2026-08-24T11:05:00.000Z"
+      }
+    ],
+    "createdAt": "2026-08-24T10:20:00.000Z"
+  },
+  {
+    "uuid": "ord-1005",
+    "orderNumber": "NN-100238",
+    "customerUuid": "cust-004",
+    "status": "processing",
+    "paymentStatus": "paid",
+    "paymentMethod": "mobile_banking",
+    "items": [
+      {
+        "productUuid": "prod-003",
+        "variantUuid": "var-006",
+        "name": "Mechanical Gaming Keyboard",
+        "image": "/products/gaming-keyboard-1.jpg",
+        "variantLabel": "Blue Switch",
+        "unitPrice": 7299,
+        "quantity": 1,
+        "subtotal": 7299
+      },
+      {
+        "productUuid": "prod-006",
+        "variantUuid": "var-012",
+        "name": "Premium Cotton T-Shirt",
+        "image": "/products/cotton-tshirt-1.jpg",
+        "variantLabel": "Black - L",
+        "unitPrice": 1499,
+        "quantity": 2,
+        "subtotal": 2998
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Arif Hossain",
+      "phone": "01733445566",
+      "addressLine1": "House 8, Road 3, Mirpur",
+      "addressLine2": "Section 10",
+      "city": "Dhaka",
+      "postalCode": "1216",
+      "country": "Bangladesh"
+    },
+    "pricing": {
+      "subtotal": 10297,
+      "shippingFee": 100,
+      "discount": 0,
+      "total": 10397
+    },
+    "timeline": [
+      {
+        "status": "pending",
+        "label": "Order Placed",
+        "timestamp": "2026-08-24T13:40:00.000Z"
+      },
+      {
+        "status": "confirmed",
+        "label": "Order Confirmed",
+        "timestamp": "2026-08-24T14:10:00.000Z"
+      },
+      {
+        "status": "processing",
+        "label": "Processing",
+        "timestamp": "2026-08-25T08:30:00.000Z"
+      }
+    ],
+    "createdAt": "2026-08-24T13:40:00.000Z"
+  },
+  {
+    "uuid": "ord-1006",
+    "orderNumber": "NN-100239",
+    "customerUuid": "cust-005",
+    "status": "shipped",
+    "paymentStatus": "paid",
+    "paymentMethod": "card",
+    "items": [
+      {
+        "productUuid": "prod-007",
+        "variantUuid": "var-013",
+        "name": "Slim Fit Denim Jeans",
+        "image": "/products/denim-jeans-1.jpg",
+        "variantLabel": "32 - Blue",
+        "unitPrice": 3799,
+        "quantity": 1,
+        "subtotal": 3799
+      },
+      {
+        "productUuid": "prod-010",
+        "variantUuid": "var-020",
+        "name": "Classic Leather Handbag",
+        "image": "/products/leather-handbag-1.jpg",
+        "variantLabel": "Black",
+        "unitPrice": 5499,
+        "quantity": 1,
+        "subtotal": 5499
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Mim Akter",
+      "phone": "01844556677",
+      "addressLine1": "Flat 4C, Road 2, Banani",
+      "addressLine2": "",
+      "city": "Dhaka",
+      "postalCode": "1213",
+      "country": "Bangladesh"
+    },
+    "pricing": {
+      "subtotal": 9298,
+      "shippingFee": 100,
+      "discount": 0,
+      "total": 9398
+    },
+    "timeline": [
+      {
+        "status": "pending",
+        "label": "Order Placed",
+        "timestamp": "2026-08-22T09:10:00.000Z"
+      },
+      {
+        "status": "confirmed",
+        "label": "Order Confirmed",
+        "timestamp": "2026-08-22T10:00:00.000Z"
+      },
+      {
+        "status": "processing",
+        "label": "Processing",
+        "timestamp": "2026-08-23T08:15:00.000Z"
+      },
+      {
+        "status": "shipped",
+        "label": "Shipped",
+        "timestamp": "2026-08-24T15:30:00.000Z"
+      }
+    ],
+    "createdAt": "2026-08-22T09:10:00.000Z"
+  },
+  {
+    "uuid": "ord-1007",
+    "orderNumber": "NN-100240",
+    "customerUuid": "cust-006",
+    "status": "out_for_delivery",
+    "paymentStatus": "paid",
+    "paymentMethod": "cash_on_delivery",
+    "items": [
+      {
+        "productUuid": "prod-009",
+        "variantUuid": "var-018",
+        "name": "Women's Floral Summer Dress",
+        "image": "/products/floral-dress-1.jpg",
+        "variantLabel": "Medium",
+        "unitPrice": 2999,
+        "quantity": 1,
+        "subtotal": 2999
+      },
+      {
+        "productUuid": "prod-015",
+        "variantUuid": "var-029",
+        "name": "LED Table Lamp",
+        "image": "/products/led-table-lamp-1.jpg",
+        "variantLabel": "Black",
+        "unitPrice": 2299,
+        "quantity": 1,
+        "subtotal": 2299
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Jannatul Ferdous",
+      "phone": "01955667788",
+      "addressLine1": "House 16, Road 4, Wari",
+      "addressLine2": "",
+      "city": "Dhaka",
+      "postalCode": "1203",
+      "country": "Bangladesh"
+    },
+    "pricing": {
+      "subtotal": 5298,
+      "shippingFee": 80,
+      "discount": 0,
+      "total": 5378
+    },
+    "timeline": [
+      {
+        "status": "pending",
+        "label": "Order Placed",
+        "timestamp": "2026-08-21T11:20:00.000Z"
+      },
+      {
+        "status": "confirmed",
+        "label": "Order Confirmed",
+        "timestamp": "2026-08-21T12:05:00.000Z"
+      },
+      {
+        "status": "processing",
+        "label": "Processing",
+        "timestamp": "2026-08-22T09:00:00.000Z"
+      },
+      {
+        "status": "shipped",
+        "label": "Shipped",
+        "timestamp": "2026-08-23T14:00:00.000Z"
+      },
+      {
+        "status": "out_for_delivery",
+        "label": "Out for Delivery",
+        "timestamp": "2026-08-24T08:45:00.000Z"
+      }
+    ],
+    "createdAt": "2026-08-21T11:20:00.000Z"
+  },
+  {
+    "uuid": "ord-1008",
+    "orderNumber": "NN-100241",
+    "customerUuid": "cust-007",
+    "status": "returned",
+    "paymentStatus": "refunded",
+    "paymentMethod": "card",
+    "items": [
+      {
+        "productUuid": "prod-008",
+        "variantUuid": "var-015",
+        "name": "Classic Leather Jacket",
+        "image": "/products/leather-jacket-1.jpg",
+        "variantLabel": "Black - M",
+        "unitPrice": 6999,
+        "quantity": 1,
+        "subtotal": 6999
+      },
+      {
+        "productUuid": "prod-012",
+        "variantUuid": "var-023",
+        "name": "Minimalist Wooden Coffee Table",
+        "image": "/products/coffee-table-1.jpg",
+        "variantLabel": "Natural Oak",
+        "unitPrice": 9999,
+        "quantity": 1,
+        "subtotal": 9999
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Nayeem Islam",
+      "phone": "01766778899",
+      "addressLine1": "Flat 7B, Road 15, Gulshan",
+      "addressLine2": "",
+      "city": "Dhaka",
+      "postalCode": "1212",
+      "country": "Bangladesh"
+    },
+    "pricing": {
+      "subtotal": 16998,
+      "shippingFee": 150,
+      "discount": 0,
+      "total": 17148
+    },
+    "timeline": [
+      {
+        "status": "pending",
+        "label": "Order Placed",
+        "timestamp": "2026-08-17T09:30:00.000Z"
+      },
+      {
+        "status": "confirmed",
+        "label": "Order Confirmed",
+        "timestamp": "2026-08-17T10:15:00.000Z"
+      },
+      {
+        "status": "processing",
+        "label": "Processing",
+        "timestamp": "2026-08-18T08:45:00.000Z"
+      },
+      {
+        "status": "shipped",
+        "label": "Shipped",
+        "timestamp": "2026-08-19T14:20:00.000Z"
+      },
+      {
+        "status": "out_for_delivery",
+        "label": "Out for Delivery",
+        "timestamp": "2026-08-20T09:10:00.000Z"
+      },
+      {
+        "status": "delivered",
+        "label": "Delivered",
+        "timestamp": "2026-08-20T16:30:00.000Z"
+      },
+      {
+        "status": "returned",
+        "label": "Order Returned",
+        "timestamp": "2026-08-24T11:00:00.000Z"
+      }
+    ],
+    "createdAt": "2026-08-17T09:30:00.000Z"
+  }
+]
